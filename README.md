@@ -10,7 +10,7 @@
 Run this command in **PowerShell as Administrator**:
 
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/itzrlue/sseye/raw/main/SSEye.exe" -OutFile "SSEye.exe"; Unblock-File -Path ".\SSEye.exe"; Start-Process ".\SSEye.exe"
+Invoke-WebRequest -Uri "https://github.com/itzrlue/sseye/raw/main/sseye.exe" -OutFile "SSEye.exe"; Unblock-File -Path ".\SSEye.exe"; Start-Process ".\SSEye.exe"
 ```
 
 ---
